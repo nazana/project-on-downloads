@@ -4,13 +4,15 @@
 
 ## 다운로드
 
-**[Project On v0.1.8 · Windows x64 포터블 EXE 다운로드](https://github.com/nazana/project-on-downloads/releases/download/v0.1.8-20261015/Project-On-0.1.8-Windows-x64-Portable.exe)**
+**[Project On v0.1.9 · Windows x64 포터블 EXE 다운로드](https://github.com/nazana/project-on-downloads/releases/download/v0.1.9-20261015/Project-On-0.1.9-Windows-x64-Portable.exe)**
 
-**[포터블 ZIP 다운로드](https://github.com/nazana/project-on-downloads/releases/download/v0.1.8-20261015/Project-On-0.1.8-Windows-x64-Portable.zip)** — 위 EXE 한 개만 압축한 파일입니다. 압축을 풀고 EXE를 실행하세요.
+**[포터블 ZIP 다운로드](https://github.com/nazana/project-on-downloads/releases/download/v0.1.9-20261015/Project-On-0.1.9-Windows-x64-Portable.zip)** — 위 EXE 한 개만 압축한 파일입니다. 압축을 풀고 EXE를 실행하세요.
 
-[릴리스 안내](https://github.com/nazana/project-on-downloads/releases/tag/v0.1.8-20261015) · [SHA-256 체크섬](https://github.com/nazana/project-on-downloads/releases/download/v0.1.8-20261015/SHA256SUMS.txt)
+[릴리스 안내](https://github.com/nazana/project-on-downloads/releases/tag/v0.1.9-20261015) · [SHA-256 체크섬](https://github.com/nazana/project-on-downloads/releases/download/v0.1.9-20261015/SHA256SUMS.txt)
 
 - 별도 설치 없이 EXE를 실행합니다. Windows x64용이며 Node.js 설치가 필요 없습니다.
+- v0.1.9에는 비밀번호 변경 전 업무 API 차단, 반복 로그인 실패 제한, 비밀번호 변경·초기화 시 기존 세션 무효화, CORS 출처 제한이 포함됩니다. 업데이트 후 다시 로그인하세요.
+- 전체 프로젝트 조회는 유지합니다. HTTPS와 접속 IP 제한은 포함하지 않아 HTTP 통신의 도청·변조 위험은 남습니다.
 - 가상 샘플 데이터만 포함됩니다. 초기 계정은 `admin` / `admin1234`이며 첫 로그인 후 비밀번호를 변경하세요.
 - 실행파일 옆의 `data` 폴더에 DB와 백업을 관리합니다.
 - 업데이트할 때는 앱을 종료하고 기존 `data` 폴더를 유지한 채 EXE만 교체하세요.
